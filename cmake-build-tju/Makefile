@@ -117,17 +117,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test1
+# Target rules for targets named A
 
 # Build rule for target.
-test1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
-.PHONY : test1
+A : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 A
+.PHONY : A
 
 # fast build rule for target.
-test1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-.PHONY : test1/fast
+A/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/build
+.PHONY : A/fast
+
+#=============================================================================
+# Target rules for targets named B
+
+# Build rule for target.
+B : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 B
+.PHONY : B
+
+# fast build rule for target.
+B/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/build
+.PHONY : B/fast
+
+#=============================================================================
+# Target rules for targets named C
+
+# Build rule for target.
+C : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C
+.PHONY : C
+
+# fast build rule for target.
+C/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
+.PHONY : C/fast
+
+#=============================================================================
+# Target rules for targets named D
+
+# Build rule for target.
+D : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 D
+.PHONY : D
+
+# fast build rule for target.
+D/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/build
+.PHONY : D/fast
 
 #=============================================================================
 # Target rules for targets named hello
@@ -155,29 +194,101 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-src/CF820_Div3/test1.o: src/CF820_Div3/test1.cpp.o
-.PHONY : src/CF820_Div3/test1.o
+src/cf1729_div3/A.o: src/cf1729_div3/A.cpp.o
+.PHONY : src/cf1729_div3/A.o
 
 # target to build an object file
-src/CF820_Div3/test1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/src/CF820_Div3/test1.cpp.o
-.PHONY : src/CF820_Div3/test1.cpp.o
+src/cf1729_div3/A.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/src/cf1729_div3/A.cpp.o
+.PHONY : src/cf1729_div3/A.cpp.o
 
-src/CF820_Div3/test1.i: src/CF820_Div3/test1.cpp.i
-.PHONY : src/CF820_Div3/test1.i
+src/cf1729_div3/A.i: src/cf1729_div3/A.cpp.i
+.PHONY : src/cf1729_div3/A.i
 
 # target to preprocess a source file
-src/CF820_Div3/test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/src/CF820_Div3/test1.cpp.i
-.PHONY : src/CF820_Div3/test1.cpp.i
+src/cf1729_div3/A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/src/cf1729_div3/A.cpp.i
+.PHONY : src/cf1729_div3/A.cpp.i
 
-src/CF820_Div3/test1.s: src/CF820_Div3/test1.cpp.s
-.PHONY : src/CF820_Div3/test1.s
+src/cf1729_div3/A.s: src/cf1729_div3/A.cpp.s
+.PHONY : src/cf1729_div3/A.s
 
 # target to generate assembly for a file
-src/CF820_Div3/test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/src/CF820_Div3/test1.cpp.s
-.PHONY : src/CF820_Div3/test1.cpp.s
+src/cf1729_div3/A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/src/cf1729_div3/A.cpp.s
+.PHONY : src/cf1729_div3/A.cpp.s
+
+src/cf1729_div3/B.o: src/cf1729_div3/B.cpp.o
+.PHONY : src/cf1729_div3/B.o
+
+# target to build an object file
+src/cf1729_div3/B.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/src/cf1729_div3/B.cpp.o
+.PHONY : src/cf1729_div3/B.cpp.o
+
+src/cf1729_div3/B.i: src/cf1729_div3/B.cpp.i
+.PHONY : src/cf1729_div3/B.i
+
+# target to preprocess a source file
+src/cf1729_div3/B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/src/cf1729_div3/B.cpp.i
+.PHONY : src/cf1729_div3/B.cpp.i
+
+src/cf1729_div3/B.s: src/cf1729_div3/B.cpp.s
+.PHONY : src/cf1729_div3/B.s
+
+# target to generate assembly for a file
+src/cf1729_div3/B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/src/cf1729_div3/B.cpp.s
+.PHONY : src/cf1729_div3/B.cpp.s
+
+src/cf1729_div3/C.o: src/cf1729_div3/C.cpp.o
+.PHONY : src/cf1729_div3/C.o
+
+# target to build an object file
+src/cf1729_div3/C.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/src/cf1729_div3/C.cpp.o
+.PHONY : src/cf1729_div3/C.cpp.o
+
+src/cf1729_div3/C.i: src/cf1729_div3/C.cpp.i
+.PHONY : src/cf1729_div3/C.i
+
+# target to preprocess a source file
+src/cf1729_div3/C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/src/cf1729_div3/C.cpp.i
+.PHONY : src/cf1729_div3/C.cpp.i
+
+src/cf1729_div3/C.s: src/cf1729_div3/C.cpp.s
+.PHONY : src/cf1729_div3/C.s
+
+# target to generate assembly for a file
+src/cf1729_div3/C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/src/cf1729_div3/C.cpp.s
+.PHONY : src/cf1729_div3/C.cpp.s
+
+src/cf1729_div3/D.o: src/cf1729_div3/D.cpp.o
+.PHONY : src/cf1729_div3/D.o
+
+# target to build an object file
+src/cf1729_div3/D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/src/cf1729_div3/D.cpp.o
+.PHONY : src/cf1729_div3/D.cpp.o
+
+src/cf1729_div3/D.i: src/cf1729_div3/D.cpp.i
+.PHONY : src/cf1729_div3/D.i
+
+# target to preprocess a source file
+src/cf1729_div3/D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/src/cf1729_div3/D.cpp.i
+.PHONY : src/cf1729_div3/D.cpp.i
+
+src/cf1729_div3/D.s: src/cf1729_div3/D.cpp.s
+.PHONY : src/cf1729_div3/D.s
+
+# target to generate assembly for a file
+src/cf1729_div3/D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/src/cf1729_div3/D.cpp.s
+.PHONY : src/cf1729_div3/D.cpp.s
 
 src/hello.o: src/hello.cpp.o
 .PHONY : src/hello.o
@@ -235,12 +346,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... A"
+	@echo "... B"
+	@echo "... C"
+	@echo "... D"
 	@echo "... hello"
 	@echo "... test"
-	@echo "... test1"
-	@echo "... src/CF820_Div3/test1.o"
-	@echo "... src/CF820_Div3/test1.i"
-	@echo "... src/CF820_Div3/test1.s"
+	@echo "... src/cf1729_div3/A.o"
+	@echo "... src/cf1729_div3/A.i"
+	@echo "... src/cf1729_div3/A.s"
+	@echo "... src/cf1729_div3/B.o"
+	@echo "... src/cf1729_div3/B.i"
+	@echo "... src/cf1729_div3/B.s"
+	@echo "... src/cf1729_div3/C.o"
+	@echo "... src/cf1729_div3/C.i"
+	@echo "... src/cf1729_div3/C.s"
+	@echo "... src/cf1729_div3/D.o"
+	@echo "... src/cf1729_div3/D.i"
+	@echo "... src/cf1729_div3/D.s"
 	@echo "... src/hello.o"
 	@echo "... src/hello.i"
 	@echo "... src/hello.s"

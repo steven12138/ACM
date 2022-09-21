@@ -1,4 +1,7 @@
-/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/test1.dir
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/A.dir
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/B.dir
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/C.dir
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/D.dir
 /mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/hello.dir
 /mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/test.dir
 /mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-tju/CMakeFiles/edit_cache.dir

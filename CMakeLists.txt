@@ -8,7 +8,7 @@ if (${IS_TJU})
     set(CMAKE_CXX_FLAGS_DEBUG "-fno-asm -Wall -lm --static")
 else ()
     set(CMAKE_CXX_STANDARD 20)
-    set(CMAKE_CXX_FLAGS_DEBUG "-fno-asm -O2 -Wall -lm --static")
+#    set(CMAKE_CXX_FLAGS_DEBUG "-fno-asm -O2 -Wall -lm --static")
 endif ()
 
 file(GLOB_RECURSE EXE_SOURCES src/*.cpp)

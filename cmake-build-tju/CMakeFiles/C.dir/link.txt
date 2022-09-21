@@ -1,0 +1,1 @@
+/usr/bin/c++ -fno-asm -Wall -lm --static CMakeFiles/C.dir/src/cf1729_div3/C.cpp.o -o C 

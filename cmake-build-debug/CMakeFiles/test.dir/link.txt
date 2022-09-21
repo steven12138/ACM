@@ -1,1 +1,0 @@
-/usr/bin/c++ -fno-asm -Wall -lm --static CMakeFiles/test.dir/src/test.cpp.o -o test 
