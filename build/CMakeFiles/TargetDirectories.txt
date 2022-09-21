@@ -1,0 +1,4 @@
+C:/Users/StevenKerman/CLionProjects/TJU_1/build/CMakeFiles/hello.dir
+C:/Users/StevenKerman/CLionProjects/TJU_1/build/CMakeFiles/test.dir
+C:/Users/StevenKerman/CLionProjects/TJU_1/build/CMakeFiles/edit_cache.dir
+C:/Users/StevenKerman/CLionProjects/TJU_1/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\hello.dir\\src\\hello.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\hello.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/hello.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\test.dir\\src\\test.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\test.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/test.cpp"
+}
+]

@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug-visual-studio/CMakeFiles/test1.dir/embed.manifest"

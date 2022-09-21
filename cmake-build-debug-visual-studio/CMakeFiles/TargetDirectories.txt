@@ -1,0 +1,5 @@
+C:/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug-visual-studio/CMakeFiles/test1.dir
+C:/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug-visual-studio/CMakeFiles/hello.dir
+C:/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug-visual-studio/CMakeFiles/test.dir
+C:/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

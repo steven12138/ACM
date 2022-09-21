@@ -1,0 +1,7 @@
+# ninja log v5
+1	827	6854278849710016	CMakeFiles/hello.dir/src/hello.cpp.obj	4de1d33c02588652
+828	1125	6854278852642179	hello.exe	c1d2f0ccde00d0b0
+0	815	6854281191874087	CMakeFiles/hello.dir/src/hello.cpp.obj	4de1d33c02588652
+816	990	6854281193370065	hello.exe	c1d2f0ccde00d0b0
+0	722	6854281253942712	CMakeFiles/test1.dir/src/CF820_Div3/test1.cpp.obj	f9aada63ef068b18
+722	1020	6854281256870792	test1.exe	8648d91cc7623ca

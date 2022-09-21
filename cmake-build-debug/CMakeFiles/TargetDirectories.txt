@@ -1,0 +1,4 @@
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug/CMakeFiles/hello.dir
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug/CMakeFiles/test.dir
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
