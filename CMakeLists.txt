@@ -23,6 +23,7 @@ foreach (FILE ${EXE_SOURCES})
 
     # Gen EXE Name
     set(EXE_NAME ${PATH}/${NAME})
+    #Remove Path
     string(REPLACE "C:/Users/StevenKerman/CLionProjects/TJU_1/" "" EXE_NAME "${EXE_NAME}")          #MSVC
     string(REPLACE "/mnt/c/Users/StevenKerman/CLionProjects/TJU_1/" "" EXE_NAME "${EXE_NAME}")      #WSL
     string(REPLACE "/" "_" EXE_NAME "${EXE_NAME}")
