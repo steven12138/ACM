@@ -5,7 +5,7 @@ project(TJU_1)
 if (${IS_TJU})
     # TJU_ACM_OJ
     message(TJU_BUILD)
-    set(CMAKE_CXX_STANDARD 11)
+    set(CMAKE_CXX_STANDARD 17)
     set(CMAKE_CXX_FLAGS_DEBUG "-Wall -lm --static")
 else ()
     set(CMAKE_CXX_STANDARD 20)
