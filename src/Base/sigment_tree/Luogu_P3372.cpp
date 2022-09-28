@@ -1,9 +1,11 @@
 #include <iostream>
 
 #define MAXN int32_t(1e5+3)
-#define int long long
 
 using namespace std;
+
+#define int64_t long long
+#define int long long
 
 class SigmentTree {
 public:
@@ -23,9 +25,13 @@ public:
         print(&root);
     }
 
+    void row_print() {
+        row_print(&root);
+    }
+
 private:
     struct node {
-        int v = 0, lazy = 0;
+        int64_t v = 0, lazy = 0;
         int l = 0, r = 0;
         node *ch[2]{};
     };
@@ -43,6 +49,13 @@ private:
         print(p->ch[1]);
     }
 
+    void row_print(node *p) {
+//        cout << "[dbg]: " << p->l << " " << p->r << " <" << p->v << " " << p->lazy << "> " << endl;
+        if (p->l == p->r) return;
+        row_print(p->ch[0]);
+        row_print(p->ch[1]);
+    }
+
     void build_tree(node *p, int l, int r, int *a) {
         p->l = l;
         p->r = r;
@@ -58,14 +71,15 @@ private:
         p->v = p->ch[0]->v + p->ch[1]->v;
     }
 
-    static void update(node *p) {
+    void update(node *p) {
+//        cout << "update " << p->l << " " << p->r << endl;
         if (p->l == p->r) return;
         pushdown(p->ch[0]);
         pushdown(p->ch[1]);
         p->v = p->ch[0]->v + p->ch[1]->v;
     }
 
-    static void pushdown(node *p) {
+    void pushdown(node *p) {
         if (!p->lazy) return;
         if (p->l == p->r) {
             p->v += p->lazy;
@@ -73,17 +87,18 @@ private:
             return;
         }
         p->v += p->lazy * (p->r - p->l + 1);
-        p->ch[0]->lazy = p->lazy;
-        p->ch[1]->lazy = p->lazy;
+        p->ch[0]->lazy += p->lazy;
+        p->ch[1]->lazy += p->lazy;
         p->lazy = 0;
     }
 
-    void change(node *p, int l, int r, int d) {
-        pushdown(p);
+    void change(node *p, int l, int r, int64_t d) {
+//        cout << "change " << p->l << " " << p->r << " <" << l << " " << r << ">  '" << p->lazy << "' " << endl;
         if (p->l == l && p->r == r) {
             p->lazy += d;
             return;
         }
+        pushdown(p);
         if (p->ch[0]->l <= l && p->ch[0]->r >= r) change(p->ch[0], l, r, d);
         else if (p->ch[1]->l <= l && p->ch[1]->r >= r) change(p->ch[1], l, r, d);
         else {
@@ -93,7 +108,7 @@ private:
         update(p);
     }
 
-    int query(node *p, int l, int r) {
+    int64_t query(node *p, int l, int r) {
         pushdown(p);
         if (p->l == l && p->r == r) {
             return p->v;
@@ -114,11 +129,13 @@ auto main() -> int32_t {
         cin >> a[i];
     }
     st.build(1, n, a);
+//    st.row_print();
     while (q--) {
         int op;
         cin >> op;
         if (op == 1) {
-            int x, y, k;
+            int x, y;
+            int64_t k;
             cin >> x >> y >> k;
             st.change(x, y, k);
         } else if (op == 2) {
@@ -126,7 +143,7 @@ auto main() -> int32_t {
             cin >> x >> y;
             cout << st.query(x, y) << endl;
         }
-//        st.print();
+//        st.row_print();
     }
     return 0;
 }
