@@ -34,7 +34,7 @@ auto main() -> int {
         }
     }
     for (int i = 1; i <= q; i++) {
-        int a=read(), b=read();
+        int a = read(), b = read();
         printf("%d\n", query(a, b));
     }
 }
