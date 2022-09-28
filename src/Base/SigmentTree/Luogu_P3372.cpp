@@ -9,23 +9,23 @@ using namespace std;
 
 class SigmentTree {
 public:
-    void build(int l, int r, int *a) {
+    auto build(int l, int r, int *a) -> void {
         build_tree(&root, l, r, a);
     }
 
-    int query(int l, int r) {
+    auto query(int l, int r) -> int64_t {
         return query(&root, l, r);
     }
 
-    void change(int l, int r, int d) {
+    auto change(int l, int r, int d) -> void {
         change(&root, l, r, d);
     }
 
-    void print() {
+    auto print() -> void {
         print(&root);
     }
 
-    void row_print() {
+    auto row_print() -> void {
         row_print(&root);
     }
 
@@ -39,7 +39,7 @@ private:
     node root, pool[3 * MAXN];
     int cnt = 0;
 
-    void print(node *p) {
+    auto print(node *p) -> void {
         pushdown(p);
         if (p->l == p->r) {
             cout << "[dbg]: " << p->l << " " << p->v << endl;
@@ -49,14 +49,14 @@ private:
         print(p->ch[1]);
     }
 
-    void row_print(node *p) {
+    auto row_print(node *p) -> void {
 //        cout << "[dbg]: " << p->l << " " << p->r << " <" << p->v << " " << p->lazy << "> " << endl;
         if (p->l == p->r) return;
         row_print(p->ch[0]);
         row_print(p->ch[1]);
     }
 
-    void build_tree(node *p, int l, int r, int *a) {
+    auto build_tree(node *p, int l, int r, int *a) -> void {
         p->l = l;
         p->r = r;
         if (l == r) {
@@ -71,15 +71,7 @@ private:
         p->v = p->ch[0]->v + p->ch[1]->v;
     }
 
-    void update(node *p) {
-//        cout << "update " << p->l << " " << p->r << endl;
-        if (p->l == p->r) return;
-        pushdown(p->ch[0]);
-        pushdown(p->ch[1]);
-        p->v = p->ch[0]->v + p->ch[1]->v;
-    }
-
-    void pushdown(node *p) {
+    auto pushdown(node *p) -> void {
         if (!p->lazy) return;
         if (p->l == p->r) {
             p->v += p->lazy;
@@ -92,7 +84,16 @@ private:
         p->lazy = 0;
     }
 
-    void change(node *p, int l, int r, int64_t d) {
+    auto update(node *p) -> void {
+//        cout << "update " << p->l << " " << p->r << endl;
+        if (p->l == p->r) return;
+        pushdown(p->ch[0]);
+        pushdown(p->ch[1]);
+        p->v = p->ch[0]->v + p->ch[1]->v;
+    }
+
+
+    auto change(node *p, int l, int r, int64_t d) -> void {
 //        cout << "change " << p->l << " " << p->r << " <" << l << " " << r << ">  '" << p->lazy << "' " << endl;
         if (p->l == l && p->r == r) {
             p->lazy += d;
@@ -108,7 +109,7 @@ private:
         update(p);
     }
 
-    int64_t query(node *p, int l, int r) {
+    auto query(node *p, int l, int r) -> int64_t {
         pushdown(p);
         if (p->l == l && p->r == r) {
             return p->v;
