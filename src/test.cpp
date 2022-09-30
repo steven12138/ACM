@@ -1,67 +1,57 @@
-#include <iostream>
-#include <vector>
-#include <queue>
-#define MAXN int(2e5+3)
-
+#include<bits/stdc++.h>
+#define LL long long
+#define ULL unsinged long long
+#define MAXN 100005
 using namespace std;
-
-long long n,m,s;
-struct edge
-{
-    long long v,w;
-};
-
-vector<edge> adj[MAXN];
-
-struct node
-{
-    long long d,id;
-    bool operator < (const node& n1) const
-    {
-        return d>n1.d;
-    }
-};
-
-long long dis[MAXN];
-bool vis[MAXN];
-
-void dijkstra(long long s)
-{
-    for(long long i=1;i<=n;i++)
-        dis[i]=2147483647;
-    priority_queue<node> q;
-    dis[s]=0;
-    q.push(node{0,s});
-    while(!q.empty())
-    {
-        long long u=q.top().id;
-        q.pop();
-        if(vis[u])	 continue;
-        vis[u]=1;
-        for(long long k=0;k<(long long)adj[u].size();k++)
-        {
-            long long v=adj[u][k].v;
-            long long w=adj[u][k].w;
-            if(dis[u]+w<dis[v])
-            {
-                dis[v]=dis[u]+w;
-                q.push(node{dis[v],v});
-            }
-        }
-    }
-}
-
-int main()
-{
-    cin>>n>>m>>s;
-    for(long long i=1;i<=m;i++)
-    {
-        long long u,v,w;
-        cin>>u>>v>>w;
-        adj[u].push_back(edge{v,w});
-    }
-    dijkstra(s);
-    for(long long i=1;i<=n;i++)
-        cout<<dis[i]<<" ";
-    return 0;
+int t,n;
+int a[MAXN];
+LL b[MAXN];
+LL pre1[MAXN],pre0[MAXN];
+LL f1[MAXN],f0[MAXN],f,len1,len0,sum1,len,sum0;
+int main(){
+ ios::sync_with_stdio(false);
+ cin>>t;
+ while(t--){
+  cin>>n;
+  for(int i=1;i<=n;i++)cin>>a[i];
+  for(int i=1;i<=n;i++)cin>>b[i];
+  len1=len0=0;
+  sum1=sum0=0;
+  for(int i=1;i<=n;i++){
+   if(a[i]){
+    f1[++len1]=b[i];
+    
+   } 
+   else {
+    f0[++len0]=b[i];
+    
+   } 
+  }
+  sort(f1+1,f1+1+len1,greater<LL>());
+  sort(f0+1,f0+1+len0,greater<LL>());
+  for(int i=1;i<=len0;i++){
+   pre0[i]=pre0[i-1]+f0[i];
+  }
+  for(int i=1;i<=len1;i++){
+   pre1[i]=pre1[i-1]+f1[i];
+  }
+  if(len1){
+   sum1+=f1[len1];
+   len=min(len1-1,len0);
+   sum1+=pre0[min(len+1,len0)]*2;
+   sum1+=pre1[len]*2;
+   sum1+=pre0[len0]-pre0[min(len+1,len0)];
+   sum1+=pre1[len1-1]-pre1[len];
+  }
+  if(len0){
+   sum0+=f0[len0];
+   len=min(len0-1,len1);
+   sum0+=pre1[min(len+1,len1)]*2;
+   sum0+=pre0[len]*2;
+   sum0+=pre1[len1]-pre1[min(len+1,len1)];
+   sum0+=pre0[len0-1]-pre0[len];
+  }
+  printf("%lld\n",max(sum1,sum0));
+ }
+ return 0;
 }

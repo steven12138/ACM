@@ -1,0 +1,192 @@
+[
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_BinaryIndexedTree_Luogu_P3368.dir\\src\\Base\\BinaryIndexedTree\\Luogu_P3368.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\BinaryIndexedTree\\Luogu_P3368.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/BinaryIndexedTree/Luogu_P3368.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_BinaryIndexedTree_Luogu_P3374.dir\\src\\Base\\BinaryIndexedTree\\Luogu_P3374.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\BinaryIndexedTree\\Luogu_P3374.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/BinaryIndexedTree/Luogu_P3374.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_Dijkstra_Luogu_P4479.dir\\src\\Base\\Dijkstra\\Luogu_P4479.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\Dijkstra\\Luogu_P4479.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/Dijkstra/Luogu_P4479.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_DisjointSet_Luogu_P3367.dir\\src\\Base\\DisjointSet\\Luogu_P3367.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\DisjointSet\\Luogu_P3367.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/DisjointSet/Luogu_P3367.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_ExponentiationBySquaring_Luogu_P1226.dir\\src\\Base\\ExponentiationBySquaring\\Luogu_P1226.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\ExponentiationBySquaring\\Luogu_P1226.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/ExponentiationBySquaring/Luogu_P1226.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_LCA_Luogu_P3379.dir\\src\\Base\\LCA\\Luogu_P3379.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\LCA\\Luogu_P3379.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/LCA/Luogu_P3379.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_MinSpaningTree_Luogu_P3366_Kruskal.dir\\src\\Base\\MinSpaningTree\\Luogu_P3366_Kruskal.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\MinSpaningTree\\Luogu_P3366_Kruskal.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/MinSpaningTree/Luogu_P3366_Kruskal.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_SigmentTree_Luogu_P3372.dir\\src\\Base\\SigmentTree\\Luogu_P3372.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\SigmentTree\\Luogu_P3372.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/SigmentTree/Luogu_P3372.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_SigmentTree_Real.dir\\src\\Base\\SigmentTree\\Real.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\SigmentTree\\Real.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/SigmentTree/Real.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_Base_StTable_Luogu_P3865.dir\\src\\Base\\StTable\\Luogu_P3865.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\Base\\StTable\\Luogu_P3865.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/Base/StTable/Luogu_P3865.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF794div2_A.dir\\src\\CF\\CF794div2\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF794div2\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF794div2/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF794div2_B.dir\\src\\CF\\CF794div2\\B.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF794div2\\B.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF794div2/B.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF794div2_C.dir\\src\\CF\\CF794div2\\C.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF794div2\\C.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF794div2/C.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF794div2_D.dir\\src\\CF\\CF794div2\\D.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF794div2\\D.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF794div2/D.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF796div2_A.dir\\src\\CF\\CF796div2\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF796div2\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF796div2/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF796div2_B.dir\\src\\CF\\CF796div2\\B.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF796div2\\B.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF796div2/B.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF796div2_C.dir\\src\\CF\\CF796div2\\C.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF796div2\\C.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF796div2/C.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF817div4_A.dir\\src\\CF\\CF817div4\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF817div4\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF817div4/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF817div4_B.dir\\src\\CF\\CF817div4\\B.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF817div4\\B.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF817div4/B.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF817div4_C.dir\\src\\CF\\CF817div4\\C.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF817div4\\C.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF817div4/C.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF817div4_D.dir\\src\\CF\\CF817div4\\D.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF817div4\\D.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF817div4/D.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF818div2_A.dir\\src\\CF\\CF818div2\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF818div2\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF818div2/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF820div3_A.dir\\src\\CF\\CF820div3\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF820div3\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF820div3/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF820div3_B.dir\\src\\CF\\CF820div3\\B.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF820div3\\B.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF820div3/B.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF820div3_C.dir\\src\\CF\\CF820div3\\C.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF820div3\\C.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF820div3/C.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF820div3_D.dir\\src\\CF\\CF820div3\\D.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF820div3\\D.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF820div3/D.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF820div3_E.dir\\src\\CF\\CF820div3\\E.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF820div3\\E.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF820div3/E.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF822div2_A.dir\\src\\CF\\CF822div2\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF822div2\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF822div2/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF822div2_B.dir\\src\\CF\\CF822div2\\B.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF822div2\\B.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF822div2/B.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF822div2_C.dir\\src\\CF\\CF822div2\\C.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF822div2\\C.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF822div2/C.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF822div2_D.dir\\src\\CF\\CF822div2\\D.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF822div2\\D.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF822div2/D.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF823div2_A.dir\\src\\CF\\CF823div2\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF823div2\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF823div2/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF823div2_B.dir\\src\\CF\\CF823div2\\B.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF823div2\\B.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF823div2/B.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CF823div2_C.dir\\src\\CF\\CF823div2\\C.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CF823div2\\C.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CF823div2/C.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CFGlobalRound22_A.dir\\src\\CF\\CFGlobalRound22\\A.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CFGlobalRound22\\A.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CFGlobalRound22/A.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_CF_CFGlobalRound22_B.dir\\src\\CF\\CFGlobalRound22\\B.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\CF\\CFGlobalRound22\\B.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/CF/CFGlobalRound22/B.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_hello.dir\\src\\hello.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\hello.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/hello.cpp"
+},
+{
+  "directory": "C:/Users/StevenKerman/CLionProjects/TJU_1/build",
+  "command": "C:\\Users\\StevenKerman\\AppData\\Local\\JetBrains\\Toolbox\\apps\\CLion\\ch-0\\222.3345.126\\bin\\mingw\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\src_test.dir\\src\\test.cpp.obj -c C:\\Users\\StevenKerman\\CLionProjects\\TJU_1\\src\\test.cpp",
+  "file": "C:/Users/StevenKerman/CLionProjects/TJU_1/src/test.cpp"
+}
+]

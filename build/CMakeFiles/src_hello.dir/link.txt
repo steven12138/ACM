@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\src_hello.dir/objects.a
+C:\Users\StevenKerman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\mingw\bin\ar.exe qc CMakeFiles\src_hello.dir/objects.a @CMakeFiles\src_hello.dir\objects1.rsp
+C:\Users\StevenKerman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\src_hello.dir/objects.a -Wl,--no-whole-archive -o src_hello.exe -Wl,--out-implib,libsrc_hello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\src_hello.dir\linklibs.rsp

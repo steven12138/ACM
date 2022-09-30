@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\src_CF_CF817div4_A.dir/objects.a
+C:\Users\StevenKerman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\mingw\bin\ar.exe qc CMakeFiles\src_CF_CF817div4_A.dir/objects.a @CMakeFiles\src_CF_CF817div4_A.dir\objects1.rsp
+C:\Users\StevenKerman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3345.126\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\src_CF_CF817div4_A.dir/objects.a -Wl,--no-whole-archive -o src_CF_CF817div4_A.exe -Wl,--out-implib,libsrc_CF_CF817div4_A.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\src_CF_CF817div4_A.dir\linklibs.rsp
