@@ -35,22 +35,7 @@ int main(){
   for(int i=1;i<=len1;i++){
    pre1[i]=pre1[i-1]+f1[i];
   }
-  if(len1){
-   sum1+=f1[len1];
-   len=min(len1-1,len0);
-   sum1+=pre0[min(len+1,len0)]*2;
-   sum1+=pre1[len]*2;
-   sum1+=pre0[len0]-pre0[min(len+1,len0)];
-   sum1+=pre1[len1-1]-pre1[len];
-  }
-  if(len0){
-   sum0+=f0[len0];
-   len=min(len0-1,len1);
-   sum0+=pre1[min(len+1,len1)]*2;
-   sum0+=pre0[len]*2;
-   sum0+=pre1[len1]-pre1[min(len+1,len1)];
-   sum0+=pre0[len0-1]-pre0[len];
-  }
+   
   printf("%lld\n",max(sum1,sum0));
  }
  return 0;
