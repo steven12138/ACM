@@ -1,14 +1,13 @@
-//gg wrong!!!!!!!!!!!!
 #include <iostream>
-#include <algorithm>
-#include <vector>
+#include <set>
 
-void solve();
+#define int long long
 
 using namespace std;
 
-int main() {
-    ios::sync_with_stdio(false);
+void solve();
+
+auto main() -> int32_t {
     int T;
     cin >> T;
     while (T--) solve();
@@ -17,49 +16,28 @@ int main() {
 
 #define MAXN 1005
 
-int h[2][MAXN];
+int a[MAXN];
+int b[MAXN];
 
-void solve() {
-    int n;
-    cin >> n;
-    for (int i = 1; i <= n; i++) cin >> h[0][i];
-    for (int i = 1; i <= n; i++) cin >> h[1][i];
-    sort(h[0] + 1, h[0] + n + 1);
-    sort(h[1] + 1, h[1] + n + 1);
+
+int n;
+set<int> st;
+
+bool check_dis(int x) {
     for (int i = 1; i <= n; i++) {
-        int dis1 = h[0][i] + h[1][1];
-        int dis2 = abs(h[0][i] - h[1][1]);
-        bool f = true;
-        int cnt1 = 0, cnt2 = 0;
-        //check
-        for (int j = 2; j <= n; j++) {
-            int dis1_ = h[0][i] + h[1][j];
-            int dis2_ = abs(h[0][i] - h[1][j]);
-            if (dis1_ != dis1 && dis1_ != dis2 && dis2_ != dis1 && dis2_ != dis2) {
-                f = false;
-                break;
-            }
-            if (dis1_ == dis1 || dis2_ == dis1) cnt1++;
-            else cnt2++;
-        }
+        if (st.find(a[i] + x) != st.end()) {
 
-        if (f) {
-            //dis=dis1
-            int min_l = 0;
-            if (cnt1 == n - 1) {
-                vector<int> d;
-                for (int j = 2; j <= n; j++) {
-                    int dis1_ = h[0][i] + h[1][j];
-                    int dis2_ = abs(h[0][i] - h[1][j]);
-                    if (dis1_ == dis1) {
-                        vector.push
-                    } else if (dis2_ == dis1) {
-                        if (h[0][i] < h[1][i]) {}
-                        else {}
-                    }
-                }
-            } else {}
         }
     }
-    cout << "NO" << endl;
+}
+
+auto solve() -> void {
+    st.clear();
+    cin >> n;
+    for (int i = 1; i <= n; i++) cin >> a[i];
+    for (int i = 1; i <= n; i++) {
+        cin >> b[i];
+        st.insert(b[i]);
+    }
+
 }

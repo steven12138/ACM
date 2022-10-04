@@ -12,6 +12,8 @@ int main() {
     return 0;
 }
 
+using NAXM = int()
+
 void solve() {
     int n;
     cin >> n;
