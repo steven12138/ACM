@@ -51,11 +51,12 @@ void solve() {
         int sp = getVal(a[i]);
         vis[sp] = true;
     }
+
     int ans = 0;
     for (int i = 1; i <= n; i++) {
         int cnt = 0;
         for (int j = i; j <= n; j++) {
-            if (i == j) continue;
+            if (i == j)     continue;
             int c[20] = {};
             for (int d = 1; d <= k; d++) {
                 c[d] = get_rest(a[i][d], a[j][d]);
