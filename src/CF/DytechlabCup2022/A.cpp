@@ -1,11 +1,54 @@
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
-void solve();
+void solve2();
 
 void solve1();
+
+struct node {
+    int u, v;
+
+    node(int u, int v) : u(u), v(v) {}
+
+    bool operator==(const node &rhs) const {
+        return u == rhs.u &&
+               v == rhs.v;
+    }
+
+    friend ostream &operator<<(ostream &os, const node &node) {
+        os << "u: " << node.u << " v: " << node.v;
+        return os;
+    }
+
+
+
+    bool operator<(const node &rhs) const {
+        if (u < rhs.u)
+            return true;
+        if (rhs.u < u)
+            return false;
+        return v < rhs.v;
+    }
+
+    bool operator>(const node &rhs) const {
+        return rhs < *this;
+    }
+
+    bool operator<=(const node &rhs) const {
+        return !(rhs < *this);
+    }
+
+    bool operator>=(const node &rhs) const {
+        return !(*this < rhs);
+    }
+
+    bool operator!=(const node &rhs) const {
+        return !(rhs == *this);
+    }
+};
 
 int main() {
     ios::sync_with_stdio(false);
