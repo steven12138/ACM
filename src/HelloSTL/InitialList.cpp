@@ -8,7 +8,7 @@ void foo(std::initializer_list<int> t) {
     }
 }
 
-auto main() -> int {z
+auto main() -> int {
     foo({1, 2, 3, 4, 4});
     return 0;
 }
