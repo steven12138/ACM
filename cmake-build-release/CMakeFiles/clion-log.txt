@@ -1,0 +1,365 @@
+C:\Users\m1861\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -DIS_TJU=true -G "CodeBlocks - MinGW Makefiles" -S C:\Users\m1861\UserData\dev\ACM -B C:\Users\m1861\UserData\dev\ACM\cmake-build-release
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/m1861/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/m1861/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+TJU_BUILD
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Algorithm_DP_1_starter_Luogu_P1002" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Algorithm_DP_1_starter_Luogu_P1048" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Algorithm_DP_1_starter_Luogu_P1216" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Algorithm_DP_1_starter_Luogu_P1616" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Algorithm_DP_2_Linear_Luogu_P1020" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_BinaryIndexedTree_Luogu_P3368" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_BinaryIndexedTree_Luogu_P3374" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_Dijkstra_Luogu_P4479" is reserved
+  or not valid for certain CMake features, such as generator expressions, and
+  may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_DisjointSet_Luogu_P3367" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_ExponentiationBySquaring_Luogu_P1226"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_Base_LCA_Luogu_P3379"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_MinSpaningTree_Luogu_P3366_Kruskal"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_SigmentTree_Luogu_P3372" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_Base_SigmentTree_Real"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name
+  "C:_Users_m1861_UserData_dev_ACM_src_Base_StTable_Luogu_P3865" is reserved
+  or not valid for certain CMake features, such as generator expressions, and
+  may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF794div2_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF794div2_B" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF794div2_C" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF794div2_D" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF796div2_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF796div2_B" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF796div2_C" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF817div4_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF817div4_B" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF817div4_C" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF817div4_D" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF818div2_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF820div3_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF820div3_B" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF820div3_C" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF820div3_D" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF820div3_E" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF822div2_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF822div2_B" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF822div2_C" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF822div2_D" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF823div2_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF823div2_B" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF823div2_C" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF824div2_A" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF824div2_B" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF824div2_C" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF824div2_D" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_CF824div2_E" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_DytechlabCup2022_A"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_DytechlabCup2022_B"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_DytechlabCup2022_C"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_CF_DytechlabCup2022_D"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_HelloSTL_InitialList"
+  is reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_Luogu_Luogu_P1241" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_Luogu_Luogu_P1449" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_Luogu_Luogu_P2234" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_Luogu_Luogu_P3916" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_Luogu_Luogu_P5318" is
+  reserved or not valid for certain CMake features, such as generator
+  expressions, and may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_hello" is reserved or
+  not valid for certain CMake features, such as generator expressions, and
+  may result in undefined behavior.
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  The target name "C:_Users_m1861_UserData_dev_ACM_src_test" is reserved or
+  not valid for certain CMake features, such as generator expressions, and
+  may result in undefined behavior.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/m1861/UserData/dev/ACM/cmake-build-release/CMakeFiles/CMakeOutput.log".

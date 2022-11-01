@@ -18,14 +18,7 @@ struct node {
                v == rhs.v;
     }
 
-    friend ostream &operator<<(ostream &os, const node &node) {
-        os << "u: " << node.u << " v: " << node.v;
-        return os;
-    }
-
-
-
-    bool operator<(const node &rhs) const {
+        bool operator<(const node &rhs) const {
         if (u < rhs.u)
             return true;
         if (rhs.u < u)
