@@ -1,0 +1,555 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TJU_1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Algorithm_DP_1_starter_Luogu_P1002::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Algorithm_DP_1_starter_Luogu_P1002-Debug-2f2418063cab5aed7a18.json",
+					"name" : "src_Algorithm_DP_1_starter_Luogu_P1002",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Algorithm_DP_1_starter_Luogu_P1048::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Algorithm_DP_1_starter_Luogu_P1048-Debug-f4434ba7b208f1fcaa4e.json",
+					"name" : "src_Algorithm_DP_1_starter_Luogu_P1048",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Algorithm_DP_1_starter_Luogu_P1216::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Algorithm_DP_1_starter_Luogu_P1216-Debug-0e374b24275bd7647d15.json",
+					"name" : "src_Algorithm_DP_1_starter_Luogu_P1216",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Algorithm_DP_1_starter_Luogu_P1616::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Algorithm_DP_1_starter_Luogu_P1616-Debug-73087cac5b20d6480ce1.json",
+					"name" : "src_Algorithm_DP_1_starter_Luogu_P1616",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Algorithm_DP_2_Linear_Luogu_P1020::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Algorithm_DP_2_Linear_Luogu_P1020-Debug-78c68e581ee32a2aedde.json",
+					"name" : "src_Algorithm_DP_2_Linear_Luogu_P1020",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_BinaryIndexedTree_Luogu_P3368::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_BinaryIndexedTree_Luogu_P3368-Debug-1452fc67f663a44d3916.json",
+					"name" : "src_Base_BinaryIndexedTree_Luogu_P3368",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_BinaryIndexedTree_Luogu_P3374::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_BinaryIndexedTree_Luogu_P3374-Debug-679bd27ea24e87f10720.json",
+					"name" : "src_Base_BinaryIndexedTree_Luogu_P3374",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_Dijkstra_Luogu_P4479::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_Dijkstra_Luogu_P4479-Debug-cb4e3afa27163e1a6f6c.json",
+					"name" : "src_Base_Dijkstra_Luogu_P4479",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_DisjointSet_Luogu_P3367::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_DisjointSet_Luogu_P3367-Debug-e880ddf9dc2d94244457.json",
+					"name" : "src_Base_DisjointSet_Luogu_P3367",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_ExponentiationBySquaring_Luogu_P1226::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_ExponentiationBySquaring_Luogu_P1226-Debug-04e5878d98180cbcc249.json",
+					"name" : "src_Base_ExponentiationBySquaring_Luogu_P1226",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_LCA_Luogu_P3379::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_LCA_Luogu_P3379-Debug-e228f8a795364085e558.json",
+					"name" : "src_Base_LCA_Luogu_P3379",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_MinSpaningTree_Luogu_P3366_Kruskal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_MinSpaningTree_Luogu_P3366_Kruskal-Debug-ee6330ba8a7f54a28304.json",
+					"name" : "src_Base_MinSpaningTree_Luogu_P3366_Kruskal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_SigmentTree_Luogu_P3372::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_SigmentTree_Luogu_P3372-Debug-66458f06a92691d5330f.json",
+					"name" : "src_Base_SigmentTree_Luogu_P3372",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_SigmentTree_Real::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_SigmentTree_Real-Debug-74f454b25733449cf753.json",
+					"name" : "src_Base_SigmentTree_Real",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Base_StTable_Luogu_P3865::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Base_StTable_Luogu_P3865-Debug-8a08f6668432979703d2.json",
+					"name" : "src_Base_StTable_Luogu_P3865",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF794div2_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF794div2_A-Debug-10c024ff9218d370ac95.json",
+					"name" : "src_CF_CF794div2_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF794div2_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF794div2_B-Debug-9d77625358537d904df7.json",
+					"name" : "src_CF_CF794div2_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF794div2_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF794div2_C-Debug-0c3783caead0cfe011c1.json",
+					"name" : "src_CF_CF794div2_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF794div2_D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF794div2_D-Debug-b17a9b2ecdcc800b0abe.json",
+					"name" : "src_CF_CF794div2_D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF796div2_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF796div2_A-Debug-2d7934dd9c0982e7310f.json",
+					"name" : "src_CF_CF796div2_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF796div2_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF796div2_B-Debug-3ab9e1ded12ec8616619.json",
+					"name" : "src_CF_CF796div2_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF796div2_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF796div2_C-Debug-7341dcb4c1ea5bcf8200.json",
+					"name" : "src_CF_CF796div2_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF817div4_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF817div4_A-Debug-099e7d17711080d145f0.json",
+					"name" : "src_CF_CF817div4_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF817div4_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF817div4_B-Debug-e0c5578f7f6e60d11f3d.json",
+					"name" : "src_CF_CF817div4_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF817div4_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF817div4_C-Debug-2feb5b5db576885c39ae.json",
+					"name" : "src_CF_CF817div4_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF817div4_D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF817div4_D-Debug-aebc9556f8557c09a76e.json",
+					"name" : "src_CF_CF817div4_D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF818div2_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF818div2_A-Debug-c950aa2c6fcb0b2c16a0.json",
+					"name" : "src_CF_CF818div2_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF820div3_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF820div3_A-Debug-b8d72e14f02e04e4b29f.json",
+					"name" : "src_CF_CF820div3_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF820div3_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF820div3_B-Debug-82af6250f602af1bd2bf.json",
+					"name" : "src_CF_CF820div3_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF820div3_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF820div3_C-Debug-44da907d7211e421eee7.json",
+					"name" : "src_CF_CF820div3_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF820div3_D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF820div3_D-Debug-e3d1f09640855c1514ea.json",
+					"name" : "src_CF_CF820div3_D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF820div3_E::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF820div3_E-Debug-54531ca9bd8e37f69641.json",
+					"name" : "src_CF_CF820div3_E",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF822div2_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF822div2_A-Debug-b4e73a4c6581bdbc36e9.json",
+					"name" : "src_CF_CF822div2_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF822div2_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF822div2_B-Debug-aee03e98002947e261d6.json",
+					"name" : "src_CF_CF822div2_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF822div2_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF822div2_C-Debug-76eee43cc39836cc7ecc.json",
+					"name" : "src_CF_CF822div2_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF822div2_D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF822div2_D-Debug-9e0e4eb5b1e2332c86f0.json",
+					"name" : "src_CF_CF822div2_D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF823div2_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF823div2_A-Debug-f73d0c076dd647bd66e9.json",
+					"name" : "src_CF_CF823div2_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF823div2_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF823div2_B-Debug-743a9f7f7c0a04473e8e.json",
+					"name" : "src_CF_CF823div2_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF823div2_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF823div2_C-Debug-f9a28a1cbf0d1b1cfb43.json",
+					"name" : "src_CF_CF823div2_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF824div2_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF824div2_A-Debug-daad1afadd1b2058e30e.json",
+					"name" : "src_CF_CF824div2_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF824div2_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF824div2_B-Debug-69888a365f85a7d58ce3.json",
+					"name" : "src_CF_CF824div2_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF824div2_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF824div2_C-Debug-aa40eea19841697d3e37.json",
+					"name" : "src_CF_CF824div2_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF824div2_D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF824div2_D-Debug-cea49c6fecbb26b839fa.json",
+					"name" : "src_CF_CF824div2_D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_CF824div2_E::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_CF824div2_E-Debug-28ef9a485d72e0e2247a.json",
+					"name" : "src_CF_CF824div2_E",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_DytechlabCup2022_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_DytechlabCup2022_A-Debug-9d559179769375fe36da.json",
+					"name" : "src_CF_DytechlabCup2022_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_DytechlabCup2022_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_DytechlabCup2022_B-Debug-43fb604204d7c701ed59.json",
+					"name" : "src_CF_DytechlabCup2022_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_DytechlabCup2022_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_DytechlabCup2022_C-Debug-73e9eb070cf04f852440.json",
+					"name" : "src_CF_DytechlabCup2022_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_CF_DytechlabCup2022_D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_CF_DytechlabCup2022_D-Debug-7b3f29846da47c2ceebd.json",
+					"name" : "src_CF_DytechlabCup2022_D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_HelloSTL_InitialList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_HelloSTL_InitialList-Debug-f27e03cb0b933f0440ac.json",
+					"name" : "src_HelloSTL_InitialList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Luogu_Luogu_P1241::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Luogu_Luogu_P1241-Debug-e53ca04f2004edef22aa.json",
+					"name" : "src_Luogu_Luogu_P1241",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Luogu_Luogu_P1449::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Luogu_Luogu_P1449-Debug-b18dc5ef57caa483c2f9.json",
+					"name" : "src_Luogu_Luogu_P1449",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Luogu_Luogu_P2234::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Luogu_Luogu_P2234-Debug-8487311630ac7697d75f.json",
+					"name" : "src_Luogu_Luogu_P2234",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Luogu_Luogu_P3916::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Luogu_Luogu_P3916-Debug-6d94f500c7b43c40a157.json",
+					"name" : "src_Luogu_Luogu_P3916",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_Luogu_Luogu_P5318::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_Luogu_Luogu_P5318-Debug-8b59b88128dbdb25b388.json",
+					"name" : "src_Luogu_Luogu_P5318",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_hello-Debug-07b0635789fa2469d22c.json",
+					"name" : "src_hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "src_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-src_test-Debug-31c5e888c6568900fd7f.json",
+					"name" : "src_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/m1861/UserData/dev/ACM/cmake-build-debug",
+		"source" : "C:/Users/m1861/UserData/dev/ACM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

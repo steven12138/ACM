@@ -1,69 +1,37 @@
 #include <iostream>
-#include <string>
-#include <set>
-#include <map>
 
-class student {
-    std::string name{};
-    int score{};
-public:
-    student() = default;
 
-    student(const std::string &&id, const std::string &&name, int score)
-            : id(id), name(name), score(score) {}
+int N[4][7] = {{0, 2, 6, 3, 4, 1, 5},
+               {0, 5, 1, 3, 4, 6, 2},
+               {0, 4, 2, 1, 6, 5, 3},
+               {0, 3, 2, 6, 1, 5, 4}};
 
-    [[nodiscard]] int getScore() const {
-        return score;
-    }
-
-    friend std::ostream &operator<<(std::ostream &os, const student &student) {
-        os << student.name << " " << student.id << " " << student.score;
-        return os;
-    }
-
-    friend std::istream &operator>>(std::istream &os, student &student) {
-        os >> student.name >> student.id >> student.score;
-        return os;
-    }
-
-    void setName(const std::string &&nm) {
-        student::name = nm;
-    }
-
-    void setScore(int i) {
-        student::score = i;
-    }
-
-    std::string id{};
+class UnexpectedException : std::exception {
 };
 
-auto main() -> int {
-    std::map<std::string, student> ls;
-    int n;
-    std::cin >> n;
-    while (n--) {
-        student p;
-        std::cin >> p;
-        ls[p.id] = p;
-    }
-    int q;
-    std::cin >> q;
-    while (q--) {
-        int op;
-        std::string id;
-        std::cin >> op >> id;
-        if (op == 1) {
-            std::cout << ls[id] << std::endl;
-        } else if (op == 2) {
-            std::string name;
-            std::cin >> name;
-            ls[id].setName(std::move(name));
-        } else if (op == 3) {
-            int score;
-            std::cin >> score;
-            ls[id].setScore(score);
+int ttn(char t) {
+    if (t == 'N') return 0;
+    if (t == 'S') return 1;
+    if (t == 'W') return 2;
+    if (t == 'E') return 3;
+    throw UnexpectedException{};
+}
+
+
+int main() {
+    int a[7];
+    int b[7];
+    for (int i = 1; i <= 6; i++) std::cin >> a[i];
+    std::string ops;
+    std::cin >> ops;
+    for (const auto &op: ops) {
+        for (int i = 1; i <= 6; i++) {
+            b[N[ttn(op)][i]] = a[i];
+        }
+        for (int i = 1; i <= 6; i++) {
+            a[i] = b[i];
         }
     }
-
+    std::cout << a[1] << std::endl;
     return 0;
 }
