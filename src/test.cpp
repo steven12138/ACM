@@ -1,37 +1,34 @@
 #include <iostream>
+#include <vector>
+#include <map>
 
+using std::cin, std::cout, std::endl;
 
-int N[4][7] = {{0, 2, 6, 3, 4, 1, 5},
-               {0, 5, 1, 3, 4, 6, 2},
-               {0, 4, 2, 1, 6, 5, 3},
-               {0, 3, 2, 6, 1, 5, 4}};
+std::map<int, std::vector<int>> s;
 
-class UnexpectedException : std::exception {
-};
-
-int ttn(char t) {
-    if (t == 'N') return 0;
-    if (t == 'S') return 1;
-    if (t == 'W') return 2;
-    if (t == 'E') return 3;
-    throw UnexpectedException{};
-}
-
-
-int main() {
-    int a[7];
-    int b[7];
-    for (int i = 1; i <= 6; i++) std::cin >> a[i];
-    std::string ops;
-    std::cin >> ops;
-    for (const auto &op: ops) {
-        for (int i = 1; i <= 6; i++) {
-            b[N[ttn(op)][i]] = a[i];
-        }
-        for (int i = 1; i <= 6; i++) {
-            a[i] = b[i];
+auto main() -> int {
+    int q;
+    cin >> q >> q;
+    while (q--) {
+        int op;
+        cin >> op;
+        if (op == 0) {
+            int t, x;
+            cin >> t >> x;
+            s[t].push_back(x);
+        } else if (op == 1) {
+            int t;
+            cin >> t;
+            for (const auto &item: s[t]) {
+                cout << item << " ";
+            }
+            cout << endl;
+        } else {
+            int a, b;
+            cin >> a >> b;
+            s[b].insert(s[b].end(), s[a].begin(), s[a].end());
+            s[a].clear();
         }
     }
-    std::cout << a[1] << std::endl;
     return 0;
 }
